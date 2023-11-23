@@ -5,6 +5,6 @@ function loadPDF() {
     if (selectedCountry) {
         previewContainer.innerHTML = `<embed src="${selectedCountry}" width="100%" height="100%" type="application/pdf">`;
     } else {
-        previewContainer.innerHTML = "<p>Select a country to view the organisational structure of its Ministry of Finance.</p>";
+        previewContainer.innerHTML = "<p>Select a country to view the organisational structure of its finance ministry and budget office.</p>";
     }
 }
