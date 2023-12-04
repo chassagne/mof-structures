@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>OECD Country Reports</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OECD - Organisational Structures of Ministry of Finance and Budget Offices</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="container">
-        <select id="countrySelect" onchange="loadPDF()">
+    <div class="dropdown-container">
+        <select id="countryDropdown" onchange="openPdf()">
             <option value="">Select a Country</option>
             <!-- Add options for each OECD country -->
             <option value="finance-ministry-structure-Australia.pdf">Australia</option>
@@ -46,9 +48,6 @@
             <option value="finance-ministry-structure-Turkiye.pdf">Türkiye</option>
             <option value="finance-ministry-structure-USA.pdf">United States</option>
         </select>
-        <div id="pdfPreview">
-            <p>Select a country to view the organisational structure of its finance ministry and budget office.</p>
-        </div>
     </div>
     <script src="script.js"></script>
 </body>

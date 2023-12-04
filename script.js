@@ -1,10 +1,8 @@
-function loadPDF() {
-    var selectedCountry = document.getElementById('countrySelect').value;
-    var previewContainer = document.getElementById('pdfPreview');
+function openPdf() {
+    var dropdown = document.getElementById("countryDropdown");
+    var selectedValue = dropdown.value;
 
-    if (selectedCountry) {
-        previewContainer.innerHTML = `<embed src="${selectedCountry}" width="100%" height="100%" type="application/pdf">`;
-    } else {
-        previewContainer.innerHTML = "<p>Select a country to view the organisational structure of its finance ministry and budget office.</p>";
+    if (selectedValue) {
+        window.open(selectedValue, '_blank');
     }
 }
