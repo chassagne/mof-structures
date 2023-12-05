@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="dropdown-container">
-        <select id="countryDropdown" onchange="openPdf()">
+        <select id="countryDropdown" onchange="updatePdfLink()">
             <option value="">Select a Country</option>
             <!-- Add options for each OECD country -->
             <option value="finance-ministry-structure-Australia.pdf">Australia</option>
@@ -48,6 +48,8 @@
             <option value="finance-ministry-structure-Turkiye.pdf">Türkiye</option>
             <option value="finance-ministry-structure-USA.pdf">United States</option>
         </select>
+        <br>
+        <a href="#" id="pdfLink" target="_blank" style="display:none;">Open PDF</a>
     </div>
     <script src="script.js"></script>
 </body>

@@ -11,10 +11,22 @@ body {
 #countryDropdown {
     width: 200px;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .dropdown-container {
     text-align: center;
 }
 
+#pdfLink {
+    display: block; /* Ensures the link starts on a new line */
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 22px;
+    text-transform: uppercase;
+    background-color: #00937E;
+    color: #fff;
+    font-family: 'bernini-sans-bold', "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 12px;
+    text-decoration: none;
+}
