@@ -12,6 +12,8 @@ body {
     width: 200px;
     padding: 10px;
     margin-bottom: 30px;
+    border: 1px solid #0b1e2d;
+    border-radius: 5px;
 }
 
 .dropdown-container {
@@ -22,7 +24,6 @@ body {
     display: block; /* Ensures the link starts on a new line */
     padding: 10px 20px;
     border-radius: 20px;
-    margin-right: 22px;
     text-transform: uppercase;
     background-color: #00937E;
     color: #fff;
